@@ -1,0 +1,47 @@
+{
+  "meta" : {
+    "version" : "2024-11-15"
+  },
+  "resources" : {
+    "achievements" : [
+      {
+        "activityProperties" : {
+
+        },
+        "archived" : false,
+        "points" : 10,
+        "referenceName" : "First play",
+        "repeatable" : false,
+        "showBeforeEarned" : true,
+        "vendorIdentifier" : "itsuki.enjoy.GameKitDemo.firstPlay"
+      },
+      {
+        "activityProperties" : {
+
+        },
+        "archived" : false,
+        "points" : 100,
+        "referenceName" : "Ten Plays",
+        "repeatable" : false,
+        "showBeforeEarned" : true,
+        "vendorIdentifier" : "itsuki.enjoy.GameKitDemo.tenPlay"
+      }
+    ],
+    "leaderboards" : [
+      {
+        "activityProperties" : {
+
+        },
+        "archived" : false,
+        "defaultFormatter" : "INTEGER",
+        "referenceName" : "High Score",
+        "scoreRangeEnd" : null,
+        "scoreRangeStart" : null,
+        "scoreSortType" : "DESC",
+        "submissionType" : "BEST_SCORE",
+        "vendorIdentifier" : "itsuki.enjoy.GameKitDemo.highScore",
+        "visibility" : "SHOW_FOR_ALL"
+      }
+    ]
+  }
+}
