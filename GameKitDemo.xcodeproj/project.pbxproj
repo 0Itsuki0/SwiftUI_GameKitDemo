@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		98895BE12FB9B3C8000C5272 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 98895BE02FB9B3C8000C5272 /* README.md */; };
+		98F643F12FBAD03C00BAC56B /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 98F643F02FBAD03C00BAC56B /* demo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		98895BE02FB9B3C8000C5272 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		98EC52172FB56FF600FD9EEF /* GameKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98F643F02FBAD03C00BAC56B /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -37,6 +39,7 @@
 		98EC520E2FB56FF600FD9EEF = {
 			isa = PBXGroup;
 			children = (
+				98F643F02FBAD03C00BAC56B /* demo.gif */,
 				98895BE02FB9B3C8000C5272 /* README.md */,
 				98EC52192FB56FF600FD9EEF /* GameKitDemo */,
 				98EC52182FB56FF600FD9EEF /* Products */,
@@ -116,6 +119,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98895BE12FB9B3C8000C5272 /* README.md in Resources */,
+				98F643F12FBAD03C00BAC56B /* demo.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
